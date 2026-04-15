@@ -28,3 +28,21 @@ Three tables in the `gold` schema following a star schema design:
 - What is each category's percentage contribution to overall revenue?
 
 ## Project Structure
+DataWarehouseAnalytics/
+├── README.md
+├── sql/
+│   ├── 01_setup.sql
+│   ├── 02_exploratory.sql
+│   ├── 03_trends_cumulative.sql
+│   ├── 04_segmentation.sql
+│   └── 05_reports.sql
+├── datasets/
+│   └── csv-files/
+│       ├── gold.dim_customers.csv
+│       ├── gold.dim_products.csv
+│       └── gold.fact_sales.csv
+└── screenshots/
+    ├── key_metrics.png
+    ├── customer_segmentation.png
+    ├── monthly_trends.png
+    └── product_performance.png
